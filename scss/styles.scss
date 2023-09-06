@@ -1,0 +1,49 @@
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+
+// Navbar color change when page > 50
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  border: none;
+}
+
+// Navbar transition
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.download {
+  background: url(../images/download-background.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+// making modal a bit wider
+.modal-dialog {
+  max-width: 1040px;
+}
+
+.header {
+  background: url(../images/header-background.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+// To center the picture and text when getting to smaller screen
+@media (max-width: 1000px) {
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero .text-container {
+    text-align: center;
+  }
+}
